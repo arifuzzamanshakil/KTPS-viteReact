@@ -1,7 +1,15 @@
 const data = {
   logoImg: {
-    en: "/src/assets/img/Logo.png",
-    es: "./src/assets/img/Logo.png"
+    en: "/assets/Logo-407e01e1.png",
+    es: "/assets/Logo-407e01e1.png"
+  },
+  headerImg: {
+    en: "/assets/header-1ecae257.png",
+    es: "/assets/header-1ecae257.png"
+  },
+  unpackImg: {
+    en: "/assets/unpack-471dd5d6.png",
+    es: "/assets/unpack-471dd5d6.png"
   },
   navItem1: {
     en: "The Details",
@@ -18,10 +26,6 @@ const data = {
   navBtn: {
     en: "START THE RESCUE PROCESS",
     es: "COMIENCE EL PROCESO DE RESCATE"
-  },
-  headerImg: {
-    en: "./src/assets/img/header.png",
-    es: "./src/assets/img/header.png"
   },
   headerTitle: {
     en: "Keep The Party Safe is a campaign that aims to reduce the number of fentanyl overdose deaths in Colorado by educating people about ways to prevent or reverse fentanyl overdoes.",
@@ -147,10 +151,6 @@ const data = {
   boxBtn4: {
     en: "Share",
     es: "Compartir"
-  },
-  unpackImg: {
-    en: "./src/assets/img/unpack.png",
-    es: "./src/assets/img/unpack.png"
   },
   unpackTitle1: {
     en: "BRING YOUR OWN NALOXONE (B.Y.O.N.)",

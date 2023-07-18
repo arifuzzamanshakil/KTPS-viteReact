@@ -18,7 +18,7 @@ const Unpack = () => {
  return (
   <div className="lg:pt-24 pt-16 w-[335px] sm:w-[500px] xl:w-[1150px] lg:w-[1020px]  mx-auto ">
    <div>
-    <img src={unpack} alt="Lets unpack Your Party checklist" className="mx-auto" />
+    <img src={data && data.unpackImg[`${trans}`]} alt="Lets unpack Your Party checklist" className="mx-auto" />
    </div>
    <div id='nalox' className='flex-col flex lg:gap-[60px] gap-3'>
     <div className="flex gap-8 flex-col items-center lg:flex-row lg:items-baseline">
