@@ -12,7 +12,9 @@ const Details = () => {
   }, [lang]);
 
   return (
+    
     <div className="h-full bg-cover bg-no-repeat bg-center pt-14 md:pt-24 w-[335px] sm:w-[500px] md:w-full mx-auto">
+      
       <h2 className='md:text-5xl text-[28px] font-Rajdhani font-semibold tracking-[4.8px] drop-shadow-5xl text-white m-auto text-center pt-24'>{data && data.detailsPageTitle[`${trans}`]}</h2>
 
       <div className='justify-between flex flex-wrap gap-28 mx-auto items-start py-0 md:py-10 lg:w-[1020px] xl:w-[1150px] md:w-[770px]'>

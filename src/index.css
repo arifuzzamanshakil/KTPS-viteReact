@@ -64,6 +64,7 @@ body::-webkit-scrollbar {
 
 .main {
   background-image: url(./assets/img/bodybg.png);
+  background-attachment: fixed;
 }
 
 .bgShadow {
@@ -228,10 +229,9 @@ nav {
   transform: rotate(45deg);
 }
 
-.power {
+/* .power {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 2%, rgba(0, 0, 0, 0.60) 40.5%);
- 
-}
+} */
 
 .footerBg {
   background: linear-gradient(90deg, #20043D 0%, rgba(116, 17, 242, 0.00) 100%);
