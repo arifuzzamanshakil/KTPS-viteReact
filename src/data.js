@@ -1,6 +1,6 @@
 const data = {
   logoImg: {
-    en: "./src/assets/img/Logo.png",
+    en: "/src/assets/img/Logo.png",
     es: "./src/assets/img/Logo.png"
   },
   navItem1: {

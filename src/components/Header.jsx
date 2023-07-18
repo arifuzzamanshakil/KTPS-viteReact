@@ -22,7 +22,7 @@ const Header = (props) => {
           </div>
 
           <div className='justify-center flex items-center'>
-            <img src={data && data.headerImg[`${trans}`]} alt="You Are On The List" className='w-[335px] sm:w-auto lg:w-[1150px] h-auto -mt-8 md:mt-20 sm:pt-16 md:pt-0'/>
+            <img src={headerImg} alt="You Are On The List" className='w-[335px] sm:w-auto lg:w-[1150px] h-auto -mt-8 md:mt-20 sm:pt-16 md:pt-0'/>
           </div>
           <div className="flex justify-center pt-6 pb-4 md:pb-10 lg:pb-16 md:pt-10 lg:pt-14">
             <p className="text-base md:text-xl md:leading-[34px] text-white text-center font-Inter font-medium lg:w-[750px] md:w-[550px] sm:w-[440px] w-[335px] drop-shadow-9xl">{data && data.headerTitle[`${trans}`]} </p>

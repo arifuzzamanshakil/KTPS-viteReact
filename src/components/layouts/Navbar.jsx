@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { closeButton, hamburger, logo } from '../../assets/img';
+import {logo } from '../../assets/img';
 import data from '../../data';
 import HamBug from './HamBug';
 import Close from './Close';
@@ -59,7 +59,7 @@ export const Navbar = (props) => {
 
                 {/* logo */}
                 <a href='/' className='cursor-pointer w-[160px] h-[30px] md:w-[386px] md:h-[66px]'>
-                  <img src={data && data.logoImg[`${trans}`]} alt="Logo" />
+                  <img src={logo} alt="Logo" />
                 </a>
 
                 <button className="nav-btn nav-close-btn cursor-pointer" onClick={showNavbar} >
