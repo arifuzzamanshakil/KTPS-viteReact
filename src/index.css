@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.hamBurger:hover svg rect {
+  stroke: #ffffff !important;
+  transition: Dissolve 75ms ease-in;
+}
+
+
+.w3rcontainer {
+  border: 1px solid #cccfdb;
+  border-radius: 2px;
+}
+
+.navList li a {
+  display: inline-block;
+  position: relative;
+}
+
+.navList li a:hover {
+  color: #FFC1E5;
+  text-shadow: 0px 0px 4px #FF5AC0;
+}
+
+.navList li a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFC1E5;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navList li a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.rescueBtn {
+  background: rgba(177, 88, 191, 0.10);
+  backdrop-filter: blur(5px);
+}
+
+.main {
+  background-image: url(./assets/img/bodybg.png);
+}
+
+.bgShadow {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.heroSec {
+  background-image: url(./assets/img/headbg.svg);
+}
+
+.triangle {
+  background-image: url(./assets/img/rec.png);
+}
+
+.triangle p {
+  text-shadow: 0px 0px 11px rgba(255, 255, 255, 0.50);
+}
+
+.header .responsive_nav {
+  transform: translateY(100vh);
+}
+
+.lang {
+  text-shadow: 0px 0px 5px #FF5AC0;
+  font-family: proxima Nova, sans-serif;
+}
+
+nav {
+  background-image: url(./assets/img/navbg.png);
+}
+
+.btn-shadow {
+  text-shadow: 0px 0px 4px #FF5AC0;
+  background-color: #FF5AC0;
+  background: rgba(177, 88, 191, 0.10);
+  backdrop-filter: blur(5px);
+}
+
+.nav-link {
+  text-shadow: 0px 0px 10px #FFEB00;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  background-color: none !important;
+  font-size: 0px !important;
+  opacity: 1 !important;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: #9C4DC0 !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50%;
+  z-index: 9;
+}
+
+.slick-prev{
+  left: -22px !important;
+}
+
+.slick-next {
+  right: -22px !important;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #BA6EDE !important;
+}
+
+.slick-prev:before {
+  content: url(./assets/img/Angleleft.svg) !important;
+}
+
+.slick-next:before {
+  content: url(./assets/img/Angleright.svg) !important;
+}
+
+.slick-dots {
+  bottom: 15px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 0px !important;
+  background: #773E81;
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  background: linear-gradient(143deg, #FA00FF 0%, #0047FF 100%);
+}
+
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 28px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 26px;
+  width: 26px;
+  border: 1.7px solid #97e4fc;
+  stroke-width: 0.8px;
+  stroke: #97E4FC;
+  filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.90));
+  border-radius: 4px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked~.checkmark {
+  background-color: #97E4FC;
+  stroke: #97E4FC;
+  stroke-width: 0.8px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 8px;
+  top: 3px;
+  width: 8px;
+  height: 14px;
+  border: solid #000;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.power {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 2%, rgba(0, 0, 0, 0.60) 40.5%);
+ 
+}
+
+.footerBg {
+  background: linear-gradient(90deg, #20043D 0%, rgba(116, 17, 242, 0.00) 100%);
+  backdrop-filter: blur(13.5px);
+}
+
+.footerBg h2 a {
+  text-shadow: 0px 0px 4px #FF5AC0;
+}
+
+.langDrop {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-styled {
+  background-color: #0047FF;
+  padding: 10px;
+}
+
+.select-styled:hover {
+  background-color: #FA00FF;
+}
