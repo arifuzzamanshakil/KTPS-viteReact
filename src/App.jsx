@@ -6,7 +6,6 @@ import Loader from './components/layouts/loader';
 
 function App() {
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -16,7 +15,7 @@ function App() {
   return (
     <>
       {
-        loading ? ( // Show the loader when the loading state is true
+        loading ? (
           <Loader />
         ) : (
           <BrowserRouter>
