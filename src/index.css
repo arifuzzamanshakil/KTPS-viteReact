@@ -14,6 +14,30 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Loader.css */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/img/navbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(13.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-out 1s;
+
+}
+
+.loader-content {
+  color: #ffffff;
+  font-size: 52px;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -63,8 +87,17 @@ body::-webkit-scrollbar {
 }
 
 .main {
-  background-image: url(./assets/img/bodybg.png);
+  background: url(./assets/img/bodyBgg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    background-attachment:unset;
+  }
 }
 
 .bgShadow {
@@ -72,7 +105,7 @@ body::-webkit-scrollbar {
 }
 
 .heroSec {
-  background-image: url(./assets/img/headbg.svg);
+  background-image: url(./assets/img/headBg.svg);
 }
 
 .triangle {
@@ -123,7 +156,7 @@ nav {
   z-index: 9;
 }
 
-.slick-prev{
+.slick-prev {
   left: -22px !important;
 }
 
@@ -229,9 +262,9 @@ nav {
   transform: rotate(45deg);
 }
 
-/* .power {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 2%, rgba(0, 0, 0, 0.60) 40.5%);
-} */
+.power {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.590) 53.1%);
+}
 
 .footerBg {
   background: linear-gradient(90deg, #20043D 0%, rgba(116, 17, 242, 0.00) 100%);

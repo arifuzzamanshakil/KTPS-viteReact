@@ -2,14 +2,20 @@ const data = {
   logoImg: {
     en: "/assets/Logo-407e01e1.png",
     es: "/assets/Logo-407e01e1.png"
+    // en: "src/assets/img/Logo.png",
+    // es: "src/assets/img/Logo.png"
   },
   headerImg: {
     en: "/assets/header-1ecae257.png",
     es: "/assets/header-1ecae257.png"
+    // en: "src/assets/img/header.png",
+    // es: "src/assets/img/header.png"
   },
   unpackImg: {
     en: "/assets/unpack-471dd5d6.png",
     es: "/assets/unpack-471dd5d6.png"
+  //   en: "src/assets/img/unpack.png",
+  //   es: "src/assets/img/unpack.png"
   },
   navItem1: {
     en: "The Details",

@@ -13,7 +13,7 @@ const Header = (props) => {
   return (
 
     <div className=" w-full heroSec bg-cover bg-no-repeat bg-center ">
-      <div className='bgShadow h-screen justify-center flex items-center py-20 lg:pt-10 mx-auto'>
+      <div className=' h-screen justify-center flex items-center py-20 lg:pt-10 mx-auto'>
 
         <div className='text-center z-10 pt-2'>
           <div className="justify-center flex mx-auto sm:pt-14">
