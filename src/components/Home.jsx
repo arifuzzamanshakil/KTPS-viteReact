@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react';
 import Navbar from './layouts/Navbar';
 import Header from './Header';
 import Details from './Details';
@@ -41,7 +41,6 @@ const Home = () => {
                </div>
             </div>
          </div>
-
       </>
    );
 };
