@@ -32,9 +32,9 @@ export const Navbar = (props) => {
     <div className='px-0 fixed z-30'>
       <p className='text-sm h-[34px] text-center py-1 md:text-lg bg-[#130524] backdrop-blur-[13.5px] text-white tracking-[1.4px] md:tracking-[1.8px] w-screen pl-10'>IF THIS IS AN EMERGENCY - <strong>CALL 911</strong></p>
       <div className='items-center px-4 pt-6 md:bg-[#2B0756] bg-none md:pt-0'>
-        <div className='flex items-center justify-between mx-auto xl:w-[1160px] lg:w-[1024px] sm:w-full lg:px-0 sm:px-8 xl:px-0 w-[340px]'>
+        <div className='flex items-center justify-between mx-auto xl:w-[1160px] lg:w-[1000px] sm:w-full lg:px-0 sm:px-8 xl:px-0 w-[340px]'>
           <div className='languageSec'>
-            <div className="w-[35px] md:w-[110px] text-xl md:text-2xl lang font-normal text-[#FFC1E5] hover:text-white hover:ease-in duration-75 drop-shadow-6xl border-none overflow-hidden">
+            <div className="w-[34px] md:w-[110px] text-xl md:text-2xl lang font-normal text-[#FFC1E5] hover:text-white hover:ease-in duration-75 drop-shadow-6xl border-none overflow-hidden">
               <button onClick={toggleLanguage}> {/*Use toggleLanguage function here  */}
                 {lang === "en" ? "Español" : "English"}
               </button>
@@ -50,7 +50,7 @@ export const Navbar = (props) => {
 
               <div className="absolute top-5 md:top-14 px-0 md:px-0 flex items-center justify-between w-[335px] lg:w-[1150px]">
                 <div className='text-white'>
-                  <div className="w-[35px] md:w-[110px] text-xl md:text-2xl lang font-normal text-[#FFC1E5] overflow-hidden  hover:text-white hover:ease-in duration-75 drop-shadow-6xl hover:drop-shadow-6xl border-none">
+                  <div className="w-[34px] md:w-[110px] text-xl md:text-2xl lang font-normal text-[#FFC1E5] overflow-hidden  hover:text-white hover:ease-in duration-75 drop-shadow-6xl hover:drop-shadow-6xl border-none">
                     <button onClick={toggleLanguage} > {/*Use toggleLanguage function here  */}
                       {lang === "en" ? "Español" : "English"}
                     </button>

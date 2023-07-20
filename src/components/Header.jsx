@@ -12,20 +12,20 @@ const Header = (props) => {
 
   return (
 
-    <div className=" w-full heroSec bg-cover bg-no-repeat bg-center ">
-      <div className=' h-screen justify-center flex items-center py-20 lg:pt-10 mx-auto'>
+    <div className=" w-full  heroSec bg-cover bg-no-repeat bg-center ">
+      <div className=' h-screen justify-center flex items-center py-24 lg:pt-10 mx-auto'>
 
         <div className='text-center z-10 pt-2'>
-          <div className="justify-center flex mx-auto sm:pt-14">
-            <div className='triangle absolute bg-no-repeat bg-center w-[480px] h-[350px]  lg:h-[570px] lg:w-[785px] md:mt-16 lg:mt-16 md:w-[660px] md:h-[480px] sm:w-[590px] sm:h-[430px] bg-cover mx-auto md:px-0'>
+          <div className="justify-center flex mx-auto sm:pt-14 overflow-hidden">
+            <div className='triangle  absolute bg-no-repeat bg-center w-[99%] h-[350px] xl:h-[570px] xl:w-[785px] lg:h-[500px] lg:w-[680px] md:mt-16 lg:mt-24 xl:mt-16 md:w-[660px] md:h-[480px] sm:w-[590px] sm:h-[430px] bg-cover mx-auto md:px-0'>
             </div>
           </div>
 
           <div className='justify-center flex items-center'>
-            <img src={data && data.headerImg[`${trans}`]} alt="You Are On The List" className='w-[335px] sm:w-auto lg:w-[1150px] h-auto -mt-8 md:mt-20 sm:pt-16 md:pt-0'/>
+            <img src={data && data.headerImg[`${trans}`]} alt="You Are On The List" className='w-[335px] sm:w-auto h-auto -mt-8 md:mt-20 lg:mt-24 xl:mt-20 sm:pt-16 md:pt-0'/>
           </div>
-          <div className="flex justify-center pt-6 pb-4 md:pb-10 lg:pb-16 md:pt-10 lg:pt-14">
-            <p className="text-base md:text-xl md:leading-[34px] text-white text-center font-Inter font-medium lg:w-[750px] md:w-[550px] sm:w-[440px] w-[335px] drop-shadow-9xl">{data && data.headerTitle[`${trans}`]} </p>
+          <div className="flex justify-center pt-6 pb-4 sm:py-8 md:pb-10 lg:pb-16 md:pt-10 lg:pt-8">
+            <p className="text-base md:text-xl md:leading-[34px] text-white text-center font-Inter font-medium lg:w-[750px] md:w-[550px] sm:w-[440px] w-[334px] drop-shadow-9xl">{data && data.headerTitle[`${trans}`]} </p>
           </div>
 
           <div className="w-[200px] mx-auto pt-4 md:pt-0 sm:pt-6">

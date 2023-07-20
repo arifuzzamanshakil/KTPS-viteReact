@@ -14,7 +14,7 @@ function BtnBox() {
 
      <div className="flex justify-between items-center lg:items-start flex-col lg:flex-row gap-8 mx-auto">
 
-      <div className="lg:w-[518px] lg:h-[285px] md:w-[550px] border border-[#E5AEEE] rounded-[14px] py-8 md:py-10 px-9 xl:px-[50px] bg-[#B158BF1A]">
+      <div className="lg:w-[518px] lg:h-[285px] md:w-[650px] border border-[#E5AEEE] rounded-[14px] py-8 md:py-10 px-9 xl:px-[50px] bg-[#B158BF1A]">
        <h2 className='md:text-5xl text-[28px] font-Rajdhani font-semibold tracking-[2.8px] md:tracking-[4.8px] drop-shadow-5xl text-white text-center'>{data && data.boxTitle[`${trans}`]}</h2>
 
        <div className="flex flex-wrap justify-center md:px-4 pt-5 gap-6 ">
@@ -27,7 +27,7 @@ function BtnBox() {
 
       </div>
 
-      <div className="lg:w-[518px] lg:h-[285px] md:w-[550px] border border-[#E5AEEE] rounded-[14px] py-8 md:py-10 px-4 xl:px-[35px] bg-[#B158BF1A]">
+      <div className="lg:w-[518px] lg:h-[285px] md:w-[650px] border border-[#E5AEEE] rounded-[14px] py-8 md:py-10 px-4 xl:px-[35px] bg-[#B158BF1A]">
        <h2 className='md:text-5xl text-[28px] font-Rajdhani font-semibold tracking-[2.8px] md:tracking-[4.8px] drop-shadow-5xl text-white m-auto text-center'>{data && data.boxTitle2[`${trans}`]}</h2>
        <p className='text-base md:text-lg text-center text-white font-Inter font-normal drop-shadow-9xl pt-5'> {data && data.boxPara[`${trans}`]} </p>
 

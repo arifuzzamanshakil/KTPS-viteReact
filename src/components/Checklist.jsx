@@ -11,7 +11,7 @@ const Checklist = () => {
   }, [lang]);
 
   return (
-    <div className="h-full bg-cover bg-no-repeat bg-center pt-14 lg:pt-24 w-[335px] sm:w-[500px] md:w-[770px] lg:w-full  mx-auto">
+    <div className="h-full bg-cover bg-no-repeat bg-center pt-14 lg:pt-24 w-[335px] sm:w-[500px] md:w-[650px] lg:w-full  mx-auto">
 
       <div className="heading">
         <h2 className='md:text-5xl text-[28px] font-Rajdhani font-semibold tracking-[4.8px] drop-shadow-5xl text-white m-auto text-center pt-10 md:pt-24'>{data && data.checkPageTitle[`${trans}`]}</h2>

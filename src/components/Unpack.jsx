@@ -17,7 +17,7 @@ const Unpack = () => {
 
  return (
   <>
-   <div className="lg:pt-24 pt-16 w-[335px] sm:w-[500px] xl:w-[1150px] lg:w-[1020px]  mx-auto ">
+   <div className="lg:pt-24 pt-16 w-[335px] sm:w-[500px] md:w-[650px] xl:w-[1150px] lg:w-[1020px]  mx-auto ">
     <div>
      <img src={data && data.unpackImg[`${trans}`]} alt="Lets unpack Your Party checklist" className="mx-auto" />
     </div>
@@ -46,12 +46,12 @@ const Unpack = () => {
      </div>
 
      <section id='testStrips' className='h-full' >
-      <div className="flex gap-8 flex-col items-center lg:flex-row lg:items-baseline" >
+      <div className="flex gap-8  flex-col items-center lg:flex-row lg:items-baseline" >
        <div className=" absolute xl:mt-[105px] lg:mt-[110px] ml-7 hidden lg:block"><img src={dash3} alt="" /></div>
        <div>
         <h2 className="border border-[#E5AEEE] rounded-[50%] w-[61px] h-[61px] text-white text-[40px] text-center font-Rajdhani font-semibold drop-shadow-10xl mt-8">3</h2>
        </div>
-       <div className="lg:w-[1060px] border border-[#E5AEEE] bg-[#B158BF1A] rounded-[14px] p-5 lg:p-10 text-center lg:text-left">
+       <div className="lg:w-[1060px] border  border-[#E5AEEE] bg-[#B158BF1A] rounded-[14px] p-5 lg:p-10 text-center lg:text-left">
         <h2 className="lg:text-[32px] text-2xl font-Rajdhani font-semibold tracking-[3.2px] drop-shadow-5xl text-white ">{data && data.unpackTitle3[`${trans}`]}</h2>
         <p className='text-lg  text-white font-Inter font-normal md:font-medium drop-shadow-9xl pt-5 '>{data && data.unpackDes6[`${trans}`]} <a href="#" className="text-[#97E4FC] hover:text-white underline">{data && data.unpackDes7[`${trans}`]}</a> {data && data.unpackDes8[`${trans}`]} <a href="#" className="text-[#97E4FC] hover:text-white underline">{data && data.unpackDes9[`${trans}`]} </a> {data && data.unpackDes10[`${trans}`]} <a href="#" className="text-[#97E4FC] hover:text-white underline">{data && data.unpackDes11[`${trans}`]} </a>  {data && data.unpackDes12[`${trans}`]}  <a href="#" className="text-[#97E4FC] hover:text-white underline">{data && data.unpackDes13[`${trans}`]} </a> </p>
        </div>
