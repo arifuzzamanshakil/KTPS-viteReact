@@ -217,40 +217,40 @@ nav {
 }
 
 /* Create a custom checkbox */
-.checkmark {
+.checkMark {
   position: absolute;
   top: 0;
   left: 0;
   height: 26px;
   width: 26px;
-  border: 1.7px solid #97e4fc;
+  border: 2px solid #97e4fc;
   stroke-width: 0.8px;
   stroke: #97E4FC;
   filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.90));
   border-radius: 4px;
 }
 
-/* When the checkbox is checked, add a blue background */
-.checkbox input:checked~.checkmark {
+/* When the checkbox is checked */
+.checkbox input:checked~.checkMark {
   background-color: #97E4FC;
   stroke: #97E4FC;
   stroke-width: 0.8px;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+/* Create the checkMark/indicator (hidden when not checked) */
+.checkMark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the checkmark when checked */
-.checkbox input:checked~.checkmark:after {
+/* Show the checkMark when checked */
+.checkbox input:checked~.checkMark:after {
   display: block;
 }
 
-/* Style the checkmark/indicator */
-.checkbox .checkmark:after {
+/* Style the checkMark/indicator */
+.checkbox .checkMark:after {
   left: 8px;
   top: 3px;
   width: 8px;
@@ -289,3 +289,75 @@ nav {
 .select-styled:hover {
   background-color: #FA00FF;
 }
+
+
+@media screen and (min-width:350px) {
+  .triangle {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:360px) {
+  .triangle {
+    width: 360px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:380px) {
+  .triangle {
+    width: 380px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:390px) {
+  .triangle {
+    width: 390px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:400px) {
+  .triangle {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:420px) {
+  .triangle {
+    width: 420px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:440px) {
+  .triangle {
+    width: 440px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:450px) {
+  .triangle {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:470px) {
+  .triangle {
+    width: 470px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width:480px) {
+  .triangle {
+    width: 480px;
+    height: 350px;
+  }
+}
+

@@ -69,13 +69,13 @@ export const Navbar = (props) => {
               </div>
 
               <ul className="navList text-center absolute md:relative top-24 mb-16 w-[335px] sm:w-auto">
-                <li className='py-5'>
+                <li className='py-6'>
                   <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-2xl md:text-[32px] font-Rajdhani font-medium" href="#details" onClick={showNavbar}> {data && data.navItem1[`${trans}`]} </a>
                 </li>
-                <li className='py-5'>
+                <li className='py-6'>
                   <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-2xl md:text-[32px] font-Rajdhani font-medium" href="#checklist" onClick={showNavbar}> {data && data.navItem2[`${trans}`]} </a>
                 </li>
-                <li className='py-5'>
+                <li className='py-6'>
                   <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-2xl md:text-[32px] font-Rajdhani font-medium" href="#unpack" onClick={showNavbar}> {data && data.navItem3[`${trans}`]} </a>
                 </li>
               </ul>
