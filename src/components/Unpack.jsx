@@ -17,7 +17,7 @@ const Unpack = () => {
 
  return (
   <>
-   <div className="lg:pt-24 pt-16 w-[335px] sm:w-[500px] md:w-[650px] xl:w-[1150px] lg:w-[1020px]  mx-auto ">
+   <div className="pt-16 w-[335px] sm:w-[500px] md:w-[650px] xl:w-[1150px] lg:w-[1020px] mx-auto ">
     <div>
      <img src={data && data.unpackImg[`${trans}`]} alt="Lets unpack Your Party checklist" className="mx-auto" />
     </div>
@@ -100,9 +100,9 @@ const Unpack = () => {
       </div>
      </div>
     </div>
+    <div className="pt-24 pb-8">
+    <p className='md:w-auto mx-auto text-base text-center text-white font-Inter font-medium drop-shadow-9xl'> {data && data.power[`${trans}`]} </p>
    </div>
-   <div className=" pt-36 pb-8">
-    <p className='w-[335px] md:w-auto mx-auto text-base text-center text-white font-Inter font-medium drop-shadow-9xl'> {data && data.power[`${trans}`]} </p>
    </div>
   </>
  );

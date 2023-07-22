@@ -11,7 +11,7 @@ const Checkbox = () => {
 
    return (
       <>
-         <div className='flex gap-12 flex-wrap mx-auto '>
+         <div className='flex gap-5 lg:gap-12 flex-wrap mx-auto '>
             <div className="flex border bg-[#B158BF1A] border-[#E5AEEE] rounded-xl items-start lg:items-center sm:px-8 px-5 py-4 md:w-full xl:w-[550px] lg:w-[485px] gap-3 md:gap-5 lg:justify-center align-middle">
                <label className="checkbox mt-1 lg:mt-0">
                   <input type="checkbox" />

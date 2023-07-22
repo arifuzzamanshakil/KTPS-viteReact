@@ -11,7 +11,7 @@ const Checklist = () => {
   }, [lang]);
 
   return (
-    <div className="h-full bg-cover bg-no-repeat bg-center pt-14 lg:pt-24 w-[335px] sm:w-[500px] md:w-[650px] lg:w-full  mx-auto">
+    <div className="h-full bg-cover bg-no-repeat bg-center pt-14 lg:pt-18 w-[335px] sm:w-[500px] md:w-[650px] lg:w-full mx-auto">
 
       <div className="heading">
         <h2 className='md:text-5xl text-[28px] font-Rajdhani font-semibold tracking-[4.8px] drop-shadow-5xl text-white m-auto text-center pt-10 md:pt-24'>{data && data.checkPageTitle[`${trans}`]}</h2>
@@ -19,11 +19,11 @@ const Checklist = () => {
         <p className='md:text-xl text-base text-center text-white font-Inter font-medium drop-shadow-9xl pt-5 w-auto md:w-full mx-auto'>{data && data.CheckSubTitle[`${trans}`]}</p>
       </div>
       
-      <div className='mx-auto xl:w-[1150px] lg:w-[1020px] py-20'>
+      <div className='mx-auto xl:w-[1150px] lg:w-[1020px] py-16'>
         <Checkbox />
       </div>
       
-      <div className='mx-auto xl:w-[1150px] lg:w-[1020px] py-10'>
+      <div className='mx-auto xl:w-[1150px] lg:w-[1020px] lg:py-24 py-0 '>
         <BtnBox />
       </div>
 
