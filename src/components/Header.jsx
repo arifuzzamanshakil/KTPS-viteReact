@@ -24,7 +24,7 @@ const Header = (props) => {
           <div className='justify-center flex items-center'>
             <img src={data && data.headerImg[`${trans}`]} alt="You Are On The List" className='w-[335px] sm:w-auto h-auto -mt-8 md:mt-20 lg:mt-24 xl:mt-20 sm:pt-16 md:pt-0' />
           </div>
-          <div className="flex justify-center pt-6 pb-4 sm:py-4 md:pb-6 lg:pb-8 md:pt-10 lg:pt-8">
+          <div className="flex justify-center pt-6 pb-4 sm:py-4 md:pb-6 lg:pb-14 md:pt-10 lg:pt-8">
             <p className="text-base md:text-xl md:leading-[34px] text-white text-center font-Inter font-medium lg:w-[750px] md:w-[550px] sm:w-[440px] w-[334px] drop-shadow-9xl">{data && data.headerTitle[`${trans}`]} </p>
           </div>
 
