@@ -28,7 +28,7 @@ const Home = () => {
             loading ? (
                <Loader />
             ) : (
-               <div className="home">
+               <div className="home ">
                   <Navbar onLangData={handleLangData} />
                   <div className="">
                      <div className='header'>
