@@ -1,21 +1,27 @@
 const data = {
   logoImg: {
-    en: "/assets/Logo-407e01e1.png",
-    es: "/assets/Logo-407e01e1.png"
-    // en: "src/assets/img/Logo.png",
-    // es: "src/assets/img/Logo.png"
+      en: "/assets/Logo-407e01e1.png",
+      es: "/assets/Logo-407e01e1.png"
+    
   },
   headerImg: {
     en: "/assets/header-1ecae257.png",
     es: "/assets/header-1ecae257.png"
-    // en: "src/assets/img/header.png",
-    // es: "src/assets/img/header.png"
+   
   },
   unpackImg: {
     en: "/assets/unpack-471dd5d6.png",
     es: "/assets/unpack-471dd5d6.png"
-  //   en: "src/assets/img/unpack.png",
-  //   es: "src/assets/img/unpack.png"
+  
+  },
+  topnav:{
+    en:"IF THIS IS AN EMERGENCY -",
+    es:"SI ESTO ES UNA EMERGENCIA -"
+  },
+  topnavCall:{
+    en:"CALL 911",
+    es:"LLAMA AL 911"
+
   },
   navItem1: {
     en: "The Details",
@@ -69,9 +75,9 @@ const data = {
     es: "¿Qué tengo que hacer?"
   },
   detailsHead3des: {
-    en: "Don't panic, there are lots of steps and precautions you can take to protect yourself when partaking in recreational drugs. We're not here to judge; we're here to keep you safe! Scroll down to learn how naloxone, designated non-users, and test strips can reduce the risk. Learning about these precautions is very important, and spreading the word is equally crucial to protecting others.",
+    en: "Don't panic, there are lots of steps and precautions you can take to protect yourself when partaking in recreational drugs. We're not here to judge we're here to keep you safe! Scroll down to learn how naloxone, designated non-users, and test strips can reduce the risk. Learning about these precautions is very important, and spreading the word is equally crucial to protecting others.",
 
-    es: "No se asuste, hay muchos pasos y precauciones que puede tomar para protegerse cuando consuma drogas recreativas. No estamos aquí para juzgar; ¡Estamos aquí para mantenerlo a salvo! Desplácese hacia abajo para saber cómo la naloxona, los no usuarios designados y las tiras reactivas pueden reducir el riesgo. Aprender acerca de estas precauciones es muy importante, y correr la voz es igualmente crucial para proteger a los demás."
+    es: "No se asuste, hay muchos pasos y precauciones que puede tomar para protegerse cuando consuma drogas recreativas. ¡No estamos aquí para juzgar, estamos aquí para mantenerlo a salvo! Desplácese hacia abajo para saber cómo la naloxona, los no usuarios designados y las tiras reactivas pueden reducir el riesgo. Aprender acerca de estas precauciones es muy importante, y correr la voz es igualmente crucial para proteger a los demás."
   },
   detailsHead4title: {
     en: "Contaminated Drugs in Colorado",

@@ -4,35 +4,30 @@ import HamBug from './HamBug';
 import Close from './Close';
 
 export const Navbar = (props) => {
-  const [langs, setLanguage] = useState("en");
-  const [getLang, setLang] = useState();
-  const handleNavData = (langData) => {
-    setLang(langData);
-  };
-
-  // navbarToggle functionality
+  const defaultLanguage = "en";
+  const [lang, setLanguage] = useState(sessionStorage.getItem('lang') || defaultLanguage);
   const navRef = useRef();
+
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
-  props.onLangData(langs);
+
+  // Call the parent component's onLangData function whenever the language changes
+  useEffect(() => {
+    props.onLangData(lang);
+  }, [lang, props]);
 
   const [trans, setTrans] = useState("");
 
   useEffect(() => {
-    const storedLanguage = localStorage.getItem('lang');
-    setLanguage(storedLanguage || "en"); // Set the language from local storage or default to "en"
-  }, []); // Run this effect only once on mount (empty dependency array)
-
-  useEffect(() => {
-    setTrans(langs);
-  }, [langs]);
+    setTrans(lang);
+  }, [lang]);
 
   // Toggle function to switch between languages
   const toggleLanguage = () => {
-    const newLang = langs === "en" ? "es" : "en";
-    setLanguage(newLang); // Update the state for rendering
-    localStorage.setItem('lang', newLang); // Update the language in local storage
+    const newLang = lang === "en" ? "es" : "en";
+    setLanguage(newLang);
+    sessionStorage.setItem('lang', newLang); // Store the language in localStorage
   };
 
   return (
@@ -45,7 +40,7 @@ export const Navbar = (props) => {
           <div className='languageSec'>
             <div className="w-[34px] md:w-[110px] text-xl md:text-2xl lang font-normal text-[#FFC1E5] hover:text-white hover:ease-in duration-75 drop-shadow-6xl border-none overflow-hidden">
               <button onClick={toggleLanguage}> {/*Use toggleLanguage function here  */}
-                {langs === "en" ? "Español" : "English"}
+                {lang === "en" ? "Español" : "English"}
               </button>
             </div>
           </div>
@@ -61,13 +56,13 @@ export const Navbar = (props) => {
                 <div className='text-white'>
                   <div className="w-[34px] md:w-[110px] text-xl md:text-2xl lang font-normal text-[#FFC1E5] overflow-hidden  hover:text-white hover:ease-in duration-75 drop-shadow-6xl hover:drop-shadow-6xl border-none">
                     <button onClick={toggleLanguage} > {/*Use toggleLanguage function here  */}
-                      {langs === "en" ? "Español" : "English"}
+                      {lang === "en" ? "Español" : "English"}
                     </button>
                   </div>
                 </div>
 
                 {/* logo */}
-                <a href='/' className='cursor-pointer w-[160px] h-[30px] md:w-full md:h-[66px]'>
+                <a href='/' className='cursor-pointer w-[160px] h-[30px] md:w-auto md:h-auto'>
                   <img src={data && data.logoImg[`${trans}`]} alt="Logo" />
                 </a>
 
