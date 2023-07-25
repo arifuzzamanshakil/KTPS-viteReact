@@ -17,7 +17,7 @@ const Checkbox = () => {
                   <input type="checkbox" />
                   <span className="checkMark"></span>
                </label>
-               <p className=' font-Inter font-semibold md:text-xl text-base text-white drop-shadow-9xl'>{data && data.checkbox1[`${trans}`]}</p>
+               <p className=' font-Inter font-semibold md:text-xl text-base text-white paraShadow'>{data && data.checkbox1[`${trans}`]}</p>
             </div>
 
             <div className="flex border bg-[#B158BF1A] border-[#E5AEEE] rounded-xl items-start lg:items-center sm:px-8 px-5 py-4 md:w-full xl:w-[550px] lg:w-[485px] gap-3 md:gap-5 lg:justify-center align-middle">
@@ -25,7 +25,7 @@ const Checkbox = () => {
                   <input type="checkbox" />
                   <span className="checkMark"></span>
                </label>
-               <p className=' font-Inter font-semibold md:text-xl text-base text-white drop-shadow-9xl'>{data && data.checkbox2[`${trans}`]}</p>
+               <p className=' font-Inter font-semibold md:text-xl text-base text-white paraShadow'>{data && data.checkbox2[`${trans}`]}</p>
             </div>
 
             <div className="flex border bg-[#B158BF1A] border-[#E5AEEE] rounded-xl items-start lg:items-center sm:px-8 px-5 py-4 md:w-full xl:w-[550px] lg:w-[485px] gap-3 md:gap-5  lg:justify-center align-middle">
@@ -33,7 +33,7 @@ const Checkbox = () => {
                   <input type="checkbox" />
                   <span className="checkMark"></span>
                </label>
-               <p className=' font-Inter font-semibold md:text-xl text-base text-white drop-shadow-9xl'>
+               <p className=' font-Inter font-semibold md:text-xl text-base text-white paraShadow'>
                   {data && data.checkbox3[`${trans}`]}
                </p>
             </div>
@@ -43,7 +43,7 @@ const Checkbox = () => {
                   <input type="checkbox" />
                   <span className="checkMark"></span>
                </label>
-               <p className=' font-Inter font-semibold md:text-xl text-base text-white drop-shadow-9xl'>
+               <p className=' font-Inter font-semibold md:text-xl text-base text-white paraShadow'>
                   {data && data.checkbox4[`${trans}`]}
                </p>
             </div>
@@ -53,7 +53,7 @@ const Checkbox = () => {
                   <input type="checkbox" />
                   <span className="checkMark"></span>
                </label>
-               <p className=' font-Inter font-semibold md:text-xl text-base text-white drop-shadow-9xl'>
+               <p className=' font-Inter font-semibold md:text-xl text-base text-white paraShadow'>
                   {data && data.checkbox5[`${trans}`]}
                </p>
             </div>

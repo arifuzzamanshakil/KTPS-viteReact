@@ -28,8 +28,8 @@ const Header = (props) => {
             <p className="text-base md:text-xl md:leading-[34px] text-white text-center font-Inter font-medium lg:w-[750px] md:w-[550px] sm:w-[440px] w-[334px] drop-shadow-9xl">{data && data.headerTitle[`${trans}`]} </p>
           </div>
 
-          <div className="w-[200px] mx-auto pt-4 md:pt-3 sm:pt-6">
-            <a href="#details" className="text-lg text-[#97E4FC] hover:text-[#C9F2FF] font-normal font-Inter drop-shadow-11xl cursor-pointer">{data && data.headerBtn[`${trans}`]} <img src={arrow} alt='arrow' className="w-auto duration-[10s] transition-all pt-6 animate-bounce m-auto" /> </a>
+          <div className="w-[200px] mx-auto pt-4 md:pt-3 sm:pt-6 seeDetailsShadow">
+            <a href="#details" className="text-lg flex flex-col text-[#97E4FC] hover:text-[#C9F2FF] font-normal font-Inter cursor-pointer">{data && data.headerBtn[`${trans}`]} <img src={arrow} alt='arrow' className="w-auto duration-[10s] transition-all pt-6 animate-bounce m-auto" /> </a>
           </div>
         </div>
       </div>

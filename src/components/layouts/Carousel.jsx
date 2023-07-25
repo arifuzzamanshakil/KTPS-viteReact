@@ -24,19 +24,19 @@ const Carousel = () => {
         <div>
           <div className='flex bg-[#B158BF1A] border border-[#E5AEEE] rounded-[14px] gap-10 items-center py-[50px] px-[120px] text-white h-[320px]'>
             <img src={medicine3} alt="" className="w-[150px]" />
-            <p className='text-lg font-Inter font-normal drop-shadow-8xl'>{data && data.carousel1Title[`${trans}`]}</p>
+            <p className='text-lg font-Inter font-normal paraShadows'>{data && data.carousel1Title[`${trans}`]}</p>
           </div>
         </div>
         <div>
           <div className='flex bg-[#B158BF1A] border border-[#E5AEEE] rounded-[14px] gap-10 items-center py-[50px] px-[120px] text-white h-[320px]'>
             <img src={bottle} alt="" className="w-[150px]" />
-            <p className='text-lg font-Inter font-normal drop-shadow-8xl'>{data && data.carousel2Title[`${trans}`]}</p>
+            <p className='text-lg font-Inter font-normal paraShadows'>{data && data.carousel2Title[`${trans}`]}</p>
           </div>
         </div>
         <div>
           <div className='flex bg-[#B158BF1A] border border-[#E5AEEE] rounded-[14px] gap-10 items-center py-[50px] px-[120px] text-white h-[320px]'>
             <img src={people} alt="" className="w-[150px]" />
-            <p className='text-lg font-Inter font-normal drop-shadow-8xl'>{data && data.carousel3Title[`${trans}`]}</p>
+            <p className='text-lg font-Inter font-normal paraShadows'>{data && data.carousel3Title[`${trans}`]}</p>
           </div>
         </div>
 

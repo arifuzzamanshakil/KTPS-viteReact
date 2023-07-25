@@ -1,18 +1,15 @@
 const data = {
   logoImg: {
-      en: "/assets/Logo-407e01e1.png",
-      es: "/assets/Logo-407e01e1.png"
-    
+    en: "/assets/Logo-407e01e1.png",
+    es: "/assets/Logo-407e01e1.png"
   },
   headerImg: {
     en: "/assets/header-1ecae257.png",
     es: "/assets/header-1ecae257.png"
-   
   },
   unpackImg: {
     en: "/assets/unpack-471dd5d6.png",
     es: "/assets/unpack-471dd5d6.png"
-  
   },
   topnav:{
     en:"IF THIS IS AN EMERGENCY -",
@@ -236,12 +233,12 @@ const data = {
     es: "programas de acceso a jeringas"
   },
   unpackDes12: {
-    en: ", and Denver residents can order them directly from",
-    es: ", y los residentes de Denver pueden ordenarlos directamente de"
+    en: "and Denver residents can order them directly from",
+    es: "y los residentes de Denver pueden ordenarlos directamente de"
   },
   unpackDes13: {
-    en: "the county.",
-    es: "el condado."
+    en: "the county",
+    es: "el condado"
   },
   unpackDes14: {
     en: "to see if fentanyl is present with fentanyl test strips. When used properly, test strips are reliable and can be an important step to take. But test strips aren’t always 100% accurate. Even when drugs test negative, remain highly cautious and prepared to use naloxone in case the test is a false negative. Test strips can be found online, via syringe access programs, and Denver residents can order them directly from the county.",
