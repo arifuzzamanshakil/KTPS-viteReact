@@ -30,7 +30,7 @@ const Home = () => {
             ) : (
                <div className="home ">
                   <Navbar onLangData={handleLangData} />
-                  <div className="">
+                  <div className="bodySec">
                      <div className='header'>
                         <Header dataLn={getLang} />
                      </div>

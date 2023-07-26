@@ -95,11 +95,10 @@ body::-webkit-scrollbar {
 }
 
 .main {
-  background: url(./assets/img/bodyBgg.png);
+  background: url(./assets/img/body.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
 }
 
 /* @media screen and (max-width: 1024px) {
@@ -117,7 +116,6 @@ body::-webkit-scrollbar {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 .triangle {
@@ -137,11 +135,30 @@ body::-webkit-scrollbar {
 }
 
 .seeDetailsShadow {
-  /* box-shadow: 0px 0px 24px 0px #40A2FD, 0px 0px 80px 0px #97EAFC, 0.5px 0.5px 1px 0px #000, 0px 0px 90px 0px #40D0FD; */
-  background: 0px 0px 0px rgba(64, 162, 253, 0.21);
-  /* filter: blur(20.5px); */
+  background: rgba(64, 162, 253, 0.20);
+  filter: blur(20.5px);
+}
+.seeDetailsShadows{
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.32);
 }
 
+@media (min-width: 769px) {
+  .bgColor {
+    background-color: #2B0756;
+  }
+}
+
+/* Styles for mobile screens */
+@media (max-width: 768px) {
+  .bgColor {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scroll-background-color {
+    background-color: #2B0756;
+  }
+}
 .headingShadow {
   text-shadow: 0px 0px 20px rgba(255, 244, 0, 0.59), 0px 0px 7px rgba(255, 220, 0, 0.56), 0px 0px 40px rgba(255, 231, 0, 0.47), 1px 1px 1px #000;
 }
