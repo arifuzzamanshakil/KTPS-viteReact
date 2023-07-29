@@ -59,7 +59,7 @@ export const Navbar = (props) => {
       <div className='bg-[#130524] text-center'>
         <p className='text-sm h-[34px] py-1 md:text-lg backdrop-blur-[13.5px] text-white tracking-[1.4px] md:tracking-[1.8px]'>{data && data.topnav[`${trans}`]}<strong> <a href="tel:911" className=' text-white hover:text-[#FF5AC0] '>{data && data.topnavCall[`${trans}`]}</a></strong></p>
       </div>
-      <div className="items-center px-4 md:px-0 py-2 md:py-0 bgColor">
+      <div className="items-center px-4 md:px-0 py-0 bgColor">
         <div className='flex items-center justify-between mx-auto xl:w-[1160px] lg:w-[1000px] sm:w-full lg:px-0 sm:px-8 xl:px-0 w-[340px]'>
           <div className='languageSec'>
             <div className="w-[33px] md:w-[95px] text-xl md:text-2xl font-normal text-[#FFC1E5] hover:text-white hover:ease-in duration-75 border-none overflow-hidden">
