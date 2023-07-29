@@ -307,10 +307,6 @@ nav {
   backdrop-filter: blur(13.5px);
 }
 
-.footerBg h2 a {
-  text-shadow: 0px 0px 4px #FF5AC0;
-}
-
 .langDrop {
   -webkit-appearance: none;
   -moz-appearance: none;
