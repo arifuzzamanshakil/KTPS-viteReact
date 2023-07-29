@@ -18,7 +18,6 @@ const data = {
   topnavCall:{
     en:"CALL 911",
     es:"LLAMA AL 911"
-
   },
   navItem1: {
     en: "The Details",
@@ -310,8 +309,12 @@ const data = {
     es: "Desarrollado por el Consorcio de Colorado para la Prevención del Abuso de Medicamentos Recetados"
   },
   footer: {
-    en: "IF THIS IS AN EMERGENCY CALL 911 AND",
-    es: "SI SE TRATA DE UNA EMERGENCIA, LLAME AL 911 Y"
+    en: "IF THIS IS AN EMERGENCY",
+    es: "SI SE TRATA DE UNA EMERGENCIA"
+  },
+  footerem: {
+    en: "AND",
+    es: "Y"
   },
   footerLink: {
     en: "START THE RESCUE PROCESS.",

@@ -46,7 +46,6 @@ body::-webkit-scrollbar {
 .hamBurger:hover svg rect {
   stroke: #ffffff !important;
   transition: Dissolve 75ms ease-in;
-
 }
 
 
@@ -100,12 +99,6 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
 }
 
-/* @media screen and (max-width: 1024px) {
-  .main {
-    background-attachment: unset;
-  }
-} */
-
 .bgShadow {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.00) 100%);
 }
@@ -142,11 +135,6 @@ body::-webkit-scrollbar {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.32);
 }
 
-/* @media (min-width: 769px) {
-  .bgColor {
-    background-color: transparent;
-  }
-} */
 
 /* Styles for mobile screens */
 
@@ -202,7 +190,6 @@ nav {
   border-radius: 50%;
   z-index: 9;
   filter: drop-shadow(0px 2.326530694961548px 23.26530647277832px rgba(229, 174, 238, 0.30));
-
 }
 
 .slick-prev {
@@ -339,6 +326,12 @@ nav {
   background-color: #FA00FF;
 }
 
+@media screen and (max-width:680px) {
+  .hamBurger svg{
+    height: 30px;
+    width: 30px;
+  }
+}
 
 @media screen and (min-width:350px) {
   .triangle {
