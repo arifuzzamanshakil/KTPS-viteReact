@@ -21,9 +21,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: linear-gradient(140deg,#4800FF , #FF00B3); */
   background: linear-gradient(115deg, #1B0049 0%, #360028 100%);
-  /* background: linear-gradient(90deg, #1D004E 30%,#1E003C 50%, #410032 100%); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -138,27 +136,28 @@ body::-webkit-scrollbar {
   background: rgba(64, 162, 253, 0.20);
   filter: blur(20.5px);
 }
-.seeDetailsShadows{
+
+.seeDetailsShadows {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.32);
 }
 
-@media (min-width: 769px) {
-  .bgColor {
-    background-color: #2B0756;
-  }
-}
-
-/* Styles for mobile screens */
-@media (max-width: 768px) {
+/* @media (min-width: 769px) {
   .bgColor {
     background-color: transparent;
-    transition: background-color 0.3s ease;
   }
-  
-  .scroll-background-color {
-    background-color: #2B0756;
-  }
+} */
+
+/* Styles for mobile screens */
+
+.bgColor {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
 }
+
+.scroll-background-color {
+  background-color: #2B0756;
+}
+
 .headingShadow {
   text-shadow: 0px 0px 20px rgba(255, 244, 0, 0.59), 0px 0px 7px rgba(255, 220, 0, 0.56), 0px 0px 40px rgba(255, 231, 0, 0.47), 1px 1px 1px #000;
 }

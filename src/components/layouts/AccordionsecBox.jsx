@@ -32,7 +32,7 @@ const AccordionsecBox = () => {
 
             </div>
 
-            <p className='text-lg text-white font-Inter font-normal paraShadows'>{data && data.naloxPara5[`${trans}`]} <a href="#" className="text-[#97E4FC] hover:text-white border-b border-[#97E4FC] hover:border-white"> {data && data.naloxPara6[`${trans}`]}</a></p>
+            <p className='text-lg text-white font-Inter font-normal paraShadows'>{data && data.naloxPara5[`${trans}`]} <a href="#" className="text-[#97E4FC] hover:text-white border-b border-[#97E4FC] hover:border-white"> {data && data.naloxPara6[`${trans}`]}</a>.</p>
 
 
          </div>

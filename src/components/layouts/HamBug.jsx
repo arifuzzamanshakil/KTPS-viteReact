@@ -2,7 +2,7 @@ import React from 'react'
 
 const HamBug = () => {
  return (
-  <div className='hamBurger'>
+  <div className='hamBurger '>
    <svg width="39" height="35" viewBox="0 0 39 35" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="Hamburger icon">
      <g id="Group 2419" filter="url(#filter0_f_209_15044)">

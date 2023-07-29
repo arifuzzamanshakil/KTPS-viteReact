@@ -302,8 +302,8 @@ const data = {
     es: "Para obtener más información sobre otros tipos de naloxona, visite"
   },
   naloxPara6: {
-    en: "OpiRescue.",
-    es: "OpiRescue."
+    en: "OpiRescue",
+    es: "OpiRescue"
   },
   power: {
     en: "Powered by the Colorado Consortium for Prescription Drug Abuse Prevention",
