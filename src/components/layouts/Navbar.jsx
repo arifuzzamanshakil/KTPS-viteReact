@@ -73,7 +73,7 @@ export const Navbar = (props) => {
             <img src={data && data.logoImg[`${trans}`]} alt="Logo" />
           </a>
 
-          <button className="w-[95px] flex justify-end" onClick={showNavbar} >
+          <button className="w-[35px] md:w-[95px] flex justify-end" onClick={showNavbar} >
               <HamBug /> {/* humbugger button  */}
           </button>
         </div>
@@ -94,7 +94,7 @@ export const Navbar = (props) => {
                 <a href='/' className='cursor-pointer w-[160px] h-[30px] md:w-auto md:h-auto'>
                   <img src={data && data.logoImg[`${trans}`]} alt="Logo" />
                 </a>
-                <button className="nav-btn w-[95px] flex justify-end nav-close-btn cursor-pointer" onClick={showNavbar} >
+                <button className="nav-btn w-[35px] md:w-[95px] flex justify-end nav-close-btn cursor-pointer" onClick={showNavbar} >
                   <Close />  {/* close button  */}
                 </button>
               </div>
